@@ -41,7 +41,7 @@ body {
     min-width: 70px;
     z-index: 1000;
     transition: all .25s ease-in-out;
-    background-color: #0e2238;
+    background-color: #00050a;
     display: flex;
     flex-direction: column;
 }
@@ -100,7 +100,7 @@ a.sidebar-link {
 
 a.sidebar-link:hover {
     background-color: rgba(255, 255, 255, .075);
-    border-left: 3px solid #c5dd3b;
+    border-left: 3px solid #f0f0f0;
 }
 
 .sidebar-item {

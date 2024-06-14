@@ -104,6 +104,16 @@
 
                 </li>
 
+                <li class="sidebar-item">
+
+                    <a class="sidebar-link" href="{{ route('logout') }}"
+                        onclick="event.preventDefault();
+                        document.getElementById('logout-form').submit();">
+                        <i class="fi fi-sr-sign-out-alt"></i>
+                        <span>{{ __('Cerrar sesion') }}</span>
+                    </a>
+                </li>
+
             </ul>
 
         </aside>
@@ -160,7 +170,7 @@
                         </div>
                     </nav>
                 <div class="text-center">
-                    <h1>pagina menu de comidas </h1>
+                    <h1>suscriptores </h1>
                 </div>
             </div>
 

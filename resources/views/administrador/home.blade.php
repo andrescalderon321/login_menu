@@ -104,6 +104,16 @@
 
                 </li>
 
+                <li class="sidebar-item">
+
+                    <a class="sidebar-link" href="{{ route('logout') }}"
+                        onclick="event.preventDefault();
+                        document.getElementById('logout-form').submit();">
+                        <i class="fi fi-sr-sign-out-alt"></i>
+                        <span>{{ __('Cerrar sesion ') }}</span>
+                    </a>
+                </li>
+               
             </ul>
 
         </aside>
