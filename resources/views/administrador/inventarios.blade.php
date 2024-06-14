@@ -34,7 +34,7 @@
             <ul class="sidebar-nav">
                 
                 <li class="sidebar-item">
-                    <a href="#" class="sidebar-link">
+                    <a href="{{route('home')}}" class="sidebar-link">
                         <i class="fi fi-sr-home"></i>
                         <span>Inicio</span>
                     </a>
@@ -42,7 +42,7 @@
                 </li>
 
                 <li class="sidebar-item">
-                    <a href="/Empleados.html" class="sidebar-link">
+                    <a href="{{route('empleado')}}" class="sidebar-link">
                         <i class="fi fi-sr-user"></i>
                         <span>Empleados</span>
                     </a>
@@ -50,7 +50,7 @@
                 </li>
 
                 <li class="sidebar-item">
-                    <a href="Menu_de_comidas.html" class="sidebar-link">
+                    <a href="{{route('menu')}}" class="sidebar-link">
                         <i class="fi fi-sr-utensils"></i>
                         <span>Menu de comidas </span>
                     </a>
@@ -58,7 +58,7 @@
                 </li>
 
                 <li class="sidebar-item">
-                    <a href="Inventarios.html" class="sidebar-link">
+                    <a href="#" class="sidebar-link">
                         <i class="fi fi-sr-inventory-alt"></i>
                         <span>Inventarios</span>
                     </a>
@@ -66,7 +66,7 @@
                 </li>
 
                 <li class="sidebar-item">
-                    <a href="Suscriptores.html" class="sidebar-link">
+                    <a href="{{route('suscriptores')}}" class="sidebar-link">
                         <i class="fi fi-sr-users"></i>
                         <span>Suscriptores</span>
                     </a>
@@ -74,7 +74,7 @@
                 </li>
 
                 <li class="sidebar-item">
-                    <a href="Pedidos.html" class="sidebar-link">
+                    <a href="{{route('pedidos')}}" class="sidebar-link">
                         <i class="fi fi-sr-bell-ring"></i>
                         <span>Pedidos</span>
                     </a>
@@ -82,7 +82,7 @@
                 </li>
 
                 <li class="sidebar-item">
-                    <a href="Provedoores.html" class="sidebar-link">
+                    <a href="{{route('provedores')}}" class="sidebar-link">
                         <i class="fi fi-bs-supplier-alt"></i>
                         <span>Provedoores</span>
                     </a>
@@ -97,7 +97,7 @@
                 </li>
 
                 <li class="sidebar-item">
-                    <a href="Ventas.html" class="sidebar-link">
+                    <a href="{{route('ventas')}}" class="sidebar-link">
                         <i class="fi fi-sr-cart-shopping-fast"></i>
                         <span>Ventas</span>
                     </a>
@@ -160,7 +160,7 @@
                         </div>
                     </nav>
                 <div class="text-center">
-                    <h1>pagina inicio </h1>
+                    <h1>pagina inventarios </h1>
                 </div>
             </div>
 

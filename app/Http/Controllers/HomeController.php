@@ -23,6 +23,34 @@ class HomeController extends Controller
      */
     public function index()
     {
-        return view('home');
+        return view('administrador.home');
+    }
+
+    public function employees(){
+        return view('administrador.Empleados');
+    }
+
+    public function inventories(){
+        return view ('administrador.inventarios');
+    }
+    public function subscriber(){
+        return view ('administrador.suscriptores');
+    }
+    public function food_menu(){
+        return view ('administrador.menu_de_comidas');
+    }
+
+    public function orders(){
+        return view ('administrador.pedidos');
+    }
+
+    public function suppliers(){
+        return view ('administrador.provedores');
+    }
+
+    public function sale(){
+
+        return view ('administrador.ventas');
+
     }
 }
